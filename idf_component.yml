@@ -1,0 +1,5 @@
+version: "1.0.0"
+description: "AP+STA Wi-Fi, auto-reconnect, web server and internet monitor for ESP-IDF"
+url: "https://github.com/torrexyz/easywifi_lib"
+dependencies:
+  idf: ">=5.0"

@@ -1,0 +1,9 @@
+idf_component_register(
+  SRCS
+    "main.c"
+  INCLUDE_DIRS
+    "."
+  PRIV_REQUIRES
+    easywifi_lib
+    esp_driver_gpio
+)

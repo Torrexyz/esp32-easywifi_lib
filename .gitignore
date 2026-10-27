@@ -1,0 +1,93 @@
+# ============================================
+# ESP-IDF build output
+# ============================================
+build/
+**/build/
+sdkconfig
+sdkconfig.old
+# Generated in the build directory
+flasher_args.json
+*.bin
+*.elf
+*.map
+*.o
+*.a
+*.out
+# Host-side utilities compiled on Windows
+*.exe
+
+# ============================================
+# ESP-IDF component manager
+# ============================================
+managed_components/
+**/managed_components/
+dependencies.lock
+**/dependencies.lock
+/components/.idf/
+**/components/.idf/
+.espressif/
+
+# ============================================
+# Secrets (never commit credentials)
+# ============================================
+**/wifi_secrets.h
+
+# ============================================
+# CMake
+# ============================================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+
+# ============================================
+# Editors / language servers
+# ============================================
+.vscode/
+.idea/
+.clangd/
+.ccls-cache/
+compile_commands.json
+*.swp
+*.swo
+*~
+# Visual Studio
+*.user
+*.suo
+*.sln.docstates
+*.workspace
+
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+venv/
+.venv/
+env/
+dist/
+
+# ============================================
+# OS
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+# Linux
+.directory
+
+# ============================================
+# Misc
+# ============================================
+*.log
+*.bak
+*.tmp

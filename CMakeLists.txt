@@ -1,0 +1,15 @@
+idf_component_register(
+  SRCS
+    "easywifi_lib.c"
+  INCLUDE_DIRS
+    "include"
+  PRIV_REQUIRES
+    esp_wifi
+    esp_hw_support
+    esp_netif
+    esp_event
+    esp_timer
+    nvs_flash
+    esp_http_client
+    esp_http_server
+)
