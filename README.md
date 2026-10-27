@@ -29,8 +29,6 @@ La aplicación interactúa con la librería exclusivamente a través de una estr
 >
 > Si la carpeta tiene otro nombre, la compilación falla con `Failed to resolve component 'easywifi_lib'`.
 
---
-
 ## Tabla de contenidos
 
 1. [Características](#1-características)
